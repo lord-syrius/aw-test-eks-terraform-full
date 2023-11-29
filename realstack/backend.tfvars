@@ -1,0 +1,10 @@
+#bucket         = "test-aw-lstack-aws-nonprod-tf-states-critical"
+#key            = "test-aw-lstack-aws-nonprod-account.terraform.tfstates"
+#encrypt        = true
+#region         = "us-east-1"
+#dynamodb_table = "test-aw-lstack-nonprod-tf-locks-critical"
+#profile        = "aw-test"
+#skip_credentials_validation = true
+#skip_metadata_api_check     = true
+#skip_region_validation = true
+#skip_requesting_account_id = true
