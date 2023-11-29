@@ -1,0 +1,18 @@
+{
+  "id": "license_0e9169a8-dc94-49a8-9b6d-2e480e43994d",
+  "license_format": "1",
+  "signature": "d410c2ef20f9ff8bfa84d22da53f6bd30869d77e05c9a0ba24c4e36e58bdce71",
+  "license_type": "trial",
+  "issue_date": "2023-11-23T09:04:49+00:00",
+  "expiry_date": "2023-12-23T08:11:23+00:00",
+  "products": [
+    {
+      "name": "localstack-pro",
+      "version": "*.*.*"
+    }
+  ],
+  "license_status": "ACTIVE",
+  "license_secret": "TFMxLjA6iKoMJIxd1+/csO5UaddYszhKsQUComxC946JngGzmOU6uHGrTj/n+LdGC7nQ5axA",
+  "last_activated": "2023-11-29T11:27:38.921539+00:00",
+  "reactivate_after": "2023-11-30T11:27:38+00:00"
+}
