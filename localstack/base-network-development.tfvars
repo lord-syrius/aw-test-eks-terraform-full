@@ -14,23 +14,24 @@ eks_managed_node_groups = {
   }
 }
 autoscaling_average_cpu = 70
-spot_termination_handler_chart_name = "spot-termination-handler"
-spot_termination_handler_chart_repo = "stable"
-spot_termination_handler_chart_version = "1.0.0"
-spot_termination_handler_chart_namespace = "default"
+spot_termination_handler_chart_name      = "aws-node-termination-handler"
+spot_termination_handler_chart_repo      = "https://aws.github.io/eks-charts"
+spot_termination_handler_chart_version   = "0.21.0"
+spot_termination_handler_chart_namespace = "kube-system"
 dns_base_domain               = "eks.localhost.localstack.cloud"
 ingress_gateway_name          = "aws-load-balancer-controller"
 ingress_gateway_iam_role      = "load-balancer-controller"
 ingress_gateway_chart_name    = "aws-load-balancer-controller"
 ingress_gateway_chart_repo    = "https://aws.github.io/eks-charts"
 ingress_gateway_chart_version = "1.6.2"
-external_dns_iam_role = "my-external-dns-role"
-external_dns_chart_name = "external-dns"
-external_dns_chart_repo = "stable"
-external_dns_chart_version = "2.0.0"
+external_dns_iam_role      = "external-dns"
+external_dns_chart_name    = "external-dns"
+external_dns_chart_repo    = "https://kubernetes-sigs.github.io/external-dns/"
+external_dns_chart_version = "1.9.0"
+
 external_dns_values = {
   provider = "aws"
 }
 namespaces = ["namespace1", "namespace2"]
-admin_users = ["admin1", "admin2"]  
-developer_users = ["developer1", "developer2"]  
+admin_users = ["admin1", "admin2"]
+developer_users = ["developer1", "developer2"] 
